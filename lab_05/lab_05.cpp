@@ -1,12 +1,8 @@
 ﻿// lab_05.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 #include "pch.h"
-#define _USE_MATH_DEFINES
-
-#include "pch.h"
 #include <cmath>
 #include <iostream>
-
 
 using namespace std;
 
@@ -49,7 +45,7 @@ void lab() {
 	} while (fabs(a) >= e);
 
 	cout << "\n sum = " << y;
-	cout << "\n exp(x) = " << (1 + 2 * x*x)*pow(M_E, x*x); //(1+2x^2)*e^x^2;
+	cout << "\n exp(x) = " << (1 + 2 * x*x)*exp(x*x); //(1+2x^2)*e^x^2;
 	cout << endl;
 }
 
