@@ -43,7 +43,7 @@ void lab() {
 	{
 		fact = fact * n;
 		a = ((2 * n + 1) / fact) * pow(x, 2 * n);
-		cout << "\n a = ((2 * " << n << " + 1) / "<< fact << ") * pow("<< x << ", 2 * "<< n << ") = " << a;
+		cout << "\n " << 2 * n + 1 << "x ^ " << 2*n << " / "<< fact << " = " << a;
 		y = y + a;
 		n++;
 	} while (fabs(a) >= e);
